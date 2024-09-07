@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 768px) {
+    .heading::after {
+        content: '';
+        background-color: rgb(67 56 202 / .7);
+        height: 1.5rem;
+        max-width: 80%;
+        display: block;
+        margin-top: -1rem;
+        margin-left: 1rem;
+        margin-right: -1rem;
+    }    
+}
+
+
+.heading2::after {
+    content: '';
+    background-color: rgb(67 56 202 / .4);
+    height: 1rem;
+    max-width: auto;
+    display: block;
+    margin-top: -1rem;
+    margin-left: 1rem;
+    margin-right: -1rem;
+}    
